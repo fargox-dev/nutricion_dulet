@@ -14,6 +14,11 @@
     --padding-general: 2.4rem;
     --gap-general:     2.4rem;
 
+    /* Moderate space parameters */
+    --margin-moderate:  1rem;
+    --padding-moderate: 1rem;
+    --gap-moderate:     1rem;
+
     /* Small space parameters */
     --padding-small: 0.5rem;
     
@@ -231,3 +236,77 @@ body{
     text-shadow: 0px 0px 6px rgba(255, 255, 255, 0.9);
     color: var(--color-r1);
 }
+
+#d4{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: var(--margin-moderate);
+}
+
+.testimonio-btn{
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    padding: var(--padding-moderate);
+    border-radius: var(--padding-moderate);
+    align-items: center;
+    justify-content: center;
+    border: none;
+    box-shadow: 0px 0px 25px rgba(255, 255, 255, 0.6);
+    background-color: var(--color-r1);
+    color: var(--color-e);
+    cursor: pointer;
+}
+.testimonio-btn p{
+    width: 100%;
+    font-size: 1.6rem;
+    text-align: left;
+}
+
+
+#d5{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: var(--margin-moderate);
+}
+.auxiliar-btn{
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    padding: var(--padding-moderate);
+    border-radius: var(--padding-moderate);
+    align-items: center;
+    justify-content: center;
+    border: none;
+    box-shadow: 0px 0px 25px rgba(255, 255, 255, 0.6);
+    background-color: var(--color-d);
+    color: var(--color-e);
+    cursor: pointer;
+}
+.auxiliar-btn p{
+    width: 100%;
+    font-size: 1.6rem;
+    text-align: left;
+}
+
+
+
+#footer-index{
+    padding: var(--padding-general);
+    color: var(--color-e);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    font-size: 1.3rem;
+    gap: var(--padding-moderate);
+}
+.social-container{
+    display: flex;
+    flex-direction: row;
+    /*width: 200px;*/
+    align-items: center;
+    justify-content: space-between;
+}
+
