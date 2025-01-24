@@ -18,42 +18,10 @@
     --margin-moderate:  1rem;
     --padding-moderate: 1rem;
     --gap-moderate:     1rem;
+    --border-radius-moderate: 1rem;
 
     /* Small space parameters */
     --padding-small: 0.5rem;
-    
-
-
-
-
-
-    /* Specific space parameters */
-    --padding-link-moderate: 1.2rem;
-    --padding-link-small-sides: 1rem;
-    --padding-link-small: 0.3rem;
-
-    /* iPad specific space parameters */
-    --padding-megagigantic: 15rem;
-    --gap-megagigantic: 9rem;
-    --padding-gigantic: 12rem;
-    --gap-gigantic: 6rem;
-    --padding-semigigantic: 9rem;
-    --gap-semigigantic: 4rem;
-    
-    /* Main logo size */
-    --width-logo: 20rem;
-
-    /* Text parameters */
-    --text-align-center: center;
-    --text-size-title: 3.0rem;
-    --text-size-link-small: 1.4rem;
-    --text-size-link-moderate: 1.8rem;
-    --text-weight-400: 400;
-    --text-weight-700: 700;
-
-    /* Border parameters */
-    --border-radius-moderate: 1rem;
-    --border-radius-small: 0.5rem;
 }
 /*---------------------------------------------------------------------------------------------------*/
 *{
@@ -321,6 +289,42 @@ body{
 
 
 
+#whatsapp-link{
+    position: fixed;
+    bottom: var(--margin-general);
+    left: var(--margin-general);
+    z-index: 1000;
+    background-color: var(--color-d);
+    padding: var(--padding-small);
+    border-radius: var(--border-radius-moderate);
+    cursor: pointer;
+    box-shadow: 0px 0px 25px rgba(255, 255, 255, 0.9);
+}
+#whatsapp-logo{
+    width: 70px;
+    height: 70px;
+    cursor: pointer;
+}
+
+#home-link{
+    position: fixed;
+    bottom: var(--margin-general);
+    right: var(--margin-general);
+    z-index: 1000;
+    background-color: var(--color-d);
+    padding: var(--padding-small);
+    border-radius: var(--border-radius-moderate);
+    cursor: pointer;
+    box-shadow: 0px 0px 25px rgba(255, 255, 255, 0.9);
+}
+#home-logo{
+    width: 70px;
+    height: 70px;
+    cursor: pointer;
+}
+
+/*---------------------------------------------------------------------------------------------------*/
+/* FOOTER */
 #footer-index{
     padding: var(--padding-general);
     color: var(--color-e);
@@ -339,20 +343,3 @@ body{
 }
 
 
-
-#whatsapp-link{
-    position: fixed;
-    bottom: var(--margin-general);
-    left: var(--margin-general);
-    z-index: 1000;
-    background-color: var(--color-d);
-    padding: var(--padding-small);
-    border-radius: var(--border-radius-moderate);
-    cursor: pointer;
-    box-shadow: 0px 0px 25px rgba(255, 255, 255, 0.9);
-}
-#whatsapp-logo{
-    width: 70px;
-    height: 70px;
-    cursor: pointer;
-}
