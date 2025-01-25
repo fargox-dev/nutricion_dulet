@@ -37,3 +37,8 @@ github = document.getElementById("github");
 github.addEventListener("click", () => {
     window.location.href = "https://github.com/fargox-dev";
 })
+
+ficha = document.getElementById("ficha-btn");
+ficha.addEventListener("click", () => {
+    window.location.href = "./ficha.html";
+})
