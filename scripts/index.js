@@ -63,6 +63,74 @@ comotomarlo.addEventListener("click", () => {
 
 
 
+asmayalergias = document.getElementById("asmayalergias-btn");
+asmayalergias.addEventListener("click", () => {
+    window.location.href = "./asmayalergias.html";
+})
+
+colesterolytrigliceridos = document.getElementById("colesterolytrigliceridos-btn");
+colesterolytrigliceridos.addEventListener("click", () => {
+    window.location.href = "./colesterolytrigliceridos.html";
+})
+
+epilepsia = document.getElementById("epilepsia-btn");
+epilepsia.addEventListener("click", () => {
+    window.location.href = "./epilepsia.html";
+})
+
+hemorroides = document.getElementById("hemorroides-btn");
+hemorroides.addEventListener("click", () => {
+    window.location.href = "./hemorroides.html";
+})
+
+hipertension = document.getElementById("hipertension-btn");
+hipertension.addEventListener("click", () => {
+    window.location.href = "./hipertension.html";
+})
+
+menopausia = document.getElementById("menopausia-btn");
+menopausia.addEventListener("click", () => {
+    window.location.href = "./menopausia.html";
+})
+
+miomasyquistes = document.getElementById("miomasyquistes-btn");
+miomasyquistes.addEventListener("click", () => {
+    window.location.href = "./miomasyquistes.html";
+})
+
+
+
+
+
+prostata = document.getElementById("prostata-btn");
+prostata.addEventListener("click", () => {
+    window.location.href = "./prostata.html";
+})
+riñones = document.getElementById("riñones-btn");
+riñones.addEventListener("click", () => {
+    window.location.href = "./riñones.html";
+})
+vertigo = document.getElementById("vertigo-btn");
+vertigo.addEventListener("click", () => {
+    window.location.href = "./vertigo.html";
+})
+vista = document.getElementById("vista-btn");
+vista.addEventListener("click", () => {
+    window.location.href = "./vista.html";
+})
+vitiligoypsoriasis = document.getElementById("vitiligoypsoriasis-btn");
+vitiligoypsoriasis.addEventListener("click", () => {
+    window.location.href = "./vitiligoypsoriasis.html";
+})
+
+
+
+
+
+
+
+
+
 
 
 
