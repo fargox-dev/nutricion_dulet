@@ -94,6 +94,7 @@ body{
     "d3"
     "d3a"
     "d4"
+    "d4a"
     "d5"
     "d2x-last";
     gap: var(--gap-general);
@@ -341,6 +342,19 @@ body{
     align-items: center;
     gap: var(--margin-moderate);
     
+}
+#d4a{
+    grid-area: d4a;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    gap: var(--gap-general);
+    position: relative;
+    width: 100%;
+    /*max-width: 400px;*/
+/*    aspect-ratio: 1000/1776;*/
 }
 
 .testimonio-btn{
