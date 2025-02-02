@@ -220,6 +220,15 @@ body{
     border-radius: 0.5rem;
     text-shadow: 0px 0px 6px rgba(255, 255, 255, 0.9);
 }
+.section-title-2-r{
+    text-align: center;
+    color: var(--color-y1);
+    font-weight: 500;
+    /*background-color: var(--color-e);*/
+    padding: var(--padding-small);
+    border-radius: 0.5rem;
+    text-shadow: 0px 0px 6px rgba(255, 255, 255, 0.9);
+}
 #kosher{
     font-size: 2rem;
     color: var(--color-y1);
