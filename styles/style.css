@@ -94,7 +94,8 @@ body{
     "d3"
     "d3a"
     "d4"
-    "d5";
+    "d5"
+    "d2x-last";
     gap: var(--gap-general);
 }
 
@@ -124,6 +125,10 @@ body{
     width: 100%;
     border-radius: var(--border-radius-general);
 }
+.img-infografia{
+    width: 100%;
+    border-radius: var(--border-radius-general);
+}
 
 
 
@@ -142,6 +147,19 @@ body{
 }
 #d2x{
     grid-area: d2;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    gap: var(--gap-general);
+    position: relative;
+    width: 100%;
+    /*max-width: 400px;*/
+/*    aspect-ratio: 1000/1776;*/
+}
+#d2x-last{
+    grid-area: d2x-last;
     display: flex;
     flex-direction: row;
     align-items: center;
@@ -281,6 +299,26 @@ body{
     cursor: pointer;
 }
 .yellow-btn p{
+    width: 100%;
+    font-size: 1.6rem;
+    text-align: left;
+}
+
+.blue-btn{
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    padding: var(--padding-moderate);
+    border-radius: var(--padding-moderate);
+    align-items: center;
+    justify-content: center;
+    border: none;
+    box-shadow: 0px 0px 25px rgba(255, 255, 255, 0.6);
+    background-color: var(--color-c);
+    color: var(--color-e);
+    cursor: pointer;
+}
+.blue-btn p{
     width: 100%;
     font-size: 1.6rem;
     text-align: left;
